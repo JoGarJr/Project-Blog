@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+.header {
+    padding: 30px;
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    border: 5px solid black;
+    border-radius: 0.5em;
+}
+.leftcolumn {   
+    float: left;
+    width: 67%;
+    margin-left: 50px;
+}
+  
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    position: -webkit -sticky;
+    position: sticky;
+    top: 0;
+}
+  
+.samplebg {
+    width: 850px;
+    border: 5px solid black;
+}
+.pics{
+    width: 100%;
+    border-radius: 1em;
+}
+.aboutme{
+    width: 100%;
+    border-radius: 50%;
+}
+#icons{
+    letter-spacing: 10px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 1em;
+}
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+  
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+}
